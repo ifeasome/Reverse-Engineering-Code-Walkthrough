@@ -30,9 +30,11 @@ This is a starter code to get user authentication up and running. To follow alon
 [Video Walkthrough](https://youtu.be/Ymj57dp-ZRw). 
 
 > Below shows the file dependency
-|>>>Public (JS), (STYLESHEETS), (HTML FILES)
-    |>>> CONFIG 
-       |>>> MODELS 
+>Public Folder< REQUIRES --> JS grabs onto the HTML
+>models Folder< REQUIRES --> models Folder
+>config Folder< REQUIRES  --> NPM package dependencies
+>Routes Folder< REQUIRES --> Public Folder
+>Server.js File< REQUIRES --> models Folder || Routes Folder
 
 
 ## Tests 
